@@ -196,6 +196,7 @@ ul{
 }
 /*style Section Header */
 header{
+    color:#000;
     position:fixed;
     width:100%;
     top:0;
@@ -894,10 +895,30 @@ main .contentImageMain a:hover{
 }
 .featured .child .image .imgTransform .centerF span{
     display: inline-block;
+    margin-right: .2rem;
     width:40px;
     height:40px;
+    cursor: pointer;
+    transition: var(--main-transition);
     text-align: center;
     background-color: var(--main-Color);
+    -webkit-transition: var(--main-transition);
+    -moz-transition: var(--main-transition);
+    -ms-transition: var(--main-transition);
+    -o-transition: var(--main-transition);
+    border-radius: .2rem;
+    -webkit-border-radius: .2rem;
+    -moz-border-radius: .2rem;
+    -ms-border-radius: .2rem;
+    -o-border-radius: .2rem;
+}
+.featured .child .image .imgTransform .centerF span:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    opacity:.8;
 }
 .featured .child .image .imgTransform .centerF span i{
     line-height: 40px;
