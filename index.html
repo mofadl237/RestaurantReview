@@ -1,54 +1,108 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restorant design</title>
-    <link type="image/x-icon" rel="icon" href="../Restorant/icon/logo.ico" />
+    <meta name="description" content="محمد فضل مطور وجهات اماميه اعمل تصاميم ريسبونسيف ومتفاعله مع كل الشاشات">
+    <!-- Link Font google  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <!-- link Font Awesome V5  -->
+    <link rel="stylesheet" href="assets/CSS/all.min.css">
+    <!-- link Style CSS  -->
+    <link rel="stylesheet" href="assets/CSS/style.css">
 
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-
-    <link rel="stylesheet" href="css/style.css">
-
-
+    <title>Restaurant Review</title>
 </head>
 <body>
-    
 
-<header class="header">
-
-    <a href="#" class="logo">
-        <img src="images/logo.png" alt="">
-    </a>
-
-    <nav class="navbar">
-        <a href="#home">home</a>
-        <a href="#about">about</a>
-        <a href="#products">Reviews</a>
-        <a href="#review">customer</a>
-        <a href="#contact">contact</a>
-    </nav>
-
-    <div class="icons">
-        <div class="fas fa-search" id="search-btn"></div>
-        <div class="fas fa-user" id="cart-btn"><a href="#"></a></div>
-    </div>
-
+<header>
+    <div class="container">
+        <div class="flex">
+            <div class="child logo">
+                <img src="assets/images/logo.png" alt="Image Logo">
+            </div>
+            <nav >
+                <span class="responsive"><i class="fas fa-bars"></i></span>
+                <ul class="flex">
+                    <li class="dropdown">
+                        <a href="#">Home</a>
+                        <div class="dropdown-menue one">
+                            <ul >
+                                <li><a href="#">Fast food restaurants</a></li>
+                                <li><a href="#">Fast casual restaurants</a></li>
+                                <li><a href="#">Hot Coffee</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">Arabic restaurants</a></li>
+                                <li><a href="#">Chinese restaurants</a></li>
+                                <li><a href="#">Italian restaurants</a></li>
+                                <li><a href="#">French restaurants</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#">Stereo</a></li>
+                                <li><a href="#">Chef's</a></li>
+                                <li><a href="#">المحمدي</a></li>
+                                <li><a href="#">الصباحي</a></li>
+                                <li><a href="#">Bremer</a></li>
+                                <li><a href="#">Bazoka</a></li>
+                                <li><a href="#">Vibes</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">customer</a></li>
+                    <li class="dropdown">
+                        <a href="#">Reviews</a>
+                        <div class="dropdown-menue">
+                            <ul>
+                                <li>Bazoka</li>
+                                <li>Vibes</li>
+                                <li>Stereo</li>
+                            </ul>
+                            <ul>
+                                <li>المحمدي</li>
+                                <li>الصباحي</li>
+                                <li>Bremer</li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="child icons flex">
+                <span><i class="fas fa-search"></i></span>
+                <span><i class="far fa-user"></i></span>
+                <span class="after"><i class="fas fa-shopping-bag"></i></span>
+            </div>
+        </div><!-- End Flex -->
+    </div><!-- End Contaier -->
 </header>
-
-<section class="home" id="home">
-
-    <div class="content">
-        <h3>teasty and fresh</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat labore, sint cupiditate distinctio tempora reiciendis.</p>
-        <a href="#products" class="btn">get yours now</a>
+<!-- Start Section Main -->
+<main>
+    <div class="container">
+        <div class="image">
+            <div class="centerF">
+                <div class="icons">
+                    <i class="fas fa-chevron-left left"></i>
+                <i class="fas fa-chevron-right right"></i>
+                </div>
+            </div>
+            <div class="contentImageMain centerF">
+                <h3>teasty and fresh</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat labore, sint cupiditate distinctio tempora reiciendis.</p>
+                <a href="#products" class="btn">get yours now</a>
+            </div>
+            <div class="boolets">
+                <div></div>
+                <div></div>
+            </div>
+        </div>
     </div>
-
-</section>
-
-
+</main>
+<!-- End Section Main -->
 <section class="about" id="about">
 
     <h1 class="heading"> <span>about</span> us </h1>
