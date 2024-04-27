@@ -311,11 +311,9 @@ header .container nav .dropdown:hover .dropdown-menue {
 header .container nav .dropdown-menue ul li {
     PADDING-BOTTOM:1REM;
 }
-header .container nav .dropdown-menue ul li a {
-   
-}
 header .container nav .responsive{
     display:none;
+    color:black;
 }
 header .container .icons{
     text-align: right;
@@ -1283,4 +1281,26 @@ footer .low p span{
     footer .low ul li{
         padding:1rem 0rem .5rem 1rem;
     }
+}
+/*Review*/
+.Review .grid-3 .child.flex{
+    flex-direction: column;
+    align-items: center;
+    padding:1.5rem .9rem;
+    text-align: center;
+    gap:1rem;
+}
+.Review .grid-3 .child.flex .imgRevie img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.Review .grid-3 .child .textReviewer ul {
+   gap:.5rem;
+    justify-content: center;
+}
+.yellow{
+    color:var(--main-Color);
 }
