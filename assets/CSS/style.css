@@ -21,7 +21,7 @@ ul{
 }
 :root{
     --main-transition:.6s;
-    --main-Color:#7b5244 ;
+    --main-Color: #D3AA77;
     --section-Padding: 4rem;
     --child-color:#F7F3EF;
     --secondary-Color:#333 ;
@@ -164,6 +164,10 @@ ul{
     font-size:2rem;
     font-weight: 800;
     text-transform: capitalize;
+    color:#D3AA77;
+}
+.specialHeader h3 span{
+    color:#fff;
 }
 .specialHeader .line{
     width:2rem;
@@ -980,6 +984,7 @@ main .contentImageMain a:hover{
 /*Start Video */
 .Video{
     padding-bottom: var(--section-Padding);
+    background-color: #111;
 }
 .Video .flex{
     gap:1rem;
@@ -1076,6 +1081,22 @@ main .contentImageMain a:hover{
 
     }
     
+}
+.Video .btn{
+    background-color: var(--main-Color);
+    color:#fff;
+    transition:var(--main-transition);
+    -webkit-transition:var(--main-transition);
+    -moz-transition:var(--main-transition);
+    -ms-transition:var(--main-transition);
+    -o-transition:var(--main-transition);
+}
+.Video .btn:hover{
+    transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -o-transform:scale(1.2);
 }
 @media (max-width:380px){
     .Video .child.two .textHeight{
