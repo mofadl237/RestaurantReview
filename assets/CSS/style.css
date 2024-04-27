@@ -673,6 +673,7 @@ main .contentImageMain a:hover{
 /*Catogery */
 .catogery{
     padding-bottom:var(--section-Padding);
+    background-color: #111;
 }
 .catogery .image{
     margin-bottom:1rem;
@@ -691,7 +692,7 @@ main .contentImageMain a:hover{
 }
 .catogery .child:hover img{
    
-    box-shadow: 1px 1px 10px 1px rgba(0,0,0,.6) ;
+    box-shadow: 1px 1px 10px 1px rgb(250,250,250) ;
 }
 .catogery .texts h5{
     opacity:.5;
@@ -701,6 +702,9 @@ main .contentImageMain a:hover{
 .catogery .texts p{
     font-weight: 800;
     font-size: 1.2rem;
+}
+.catogery .text{
+    align-items: end;
 }
 .catogery .text .icons span{
     display: block;
@@ -1002,9 +1006,13 @@ main .contentImageMain a:hover{
 }
 .Video .child.one{
     flex-basis: 35%;
+
+}
+.Video .child.one img{
+    max-height: 100%;
 }
 .Video .child.two{
-    padding:2rem;
+    padding:1.3rem;
     background-color: var(--child-color);
     flex-basis: 70%;
     max-width: 100%;
