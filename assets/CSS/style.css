@@ -6,6 +6,8 @@
 }
 body{
     font-family: 'PT Sans', sans-serif;
+    background-color: #000;
+    color:#fff;
 }
 html{
     scroll-behavior: smooth;
@@ -848,6 +850,15 @@ main .contentImageMain a:hover{
 .featured {
     padding: var(--section-Padding) 0;
 }
+.featured .child{
+    border:1px solid #fff;
+    padding:.5rem;
+    border-radius: .2rem;
+    -webkit-border-radius: .2rem;
+    -moz-border-radius: .2rem;
+    -ms-border-radius: .2rem;
+    -o-border-radius: .2rem;
+}
 .featured .child .image{
     position:relative;
 }
@@ -997,7 +1008,7 @@ main .contentImageMain a:hover{
     background-color: var(--child-color);
     flex-basis: 70%;
     max-width: 100%;
-
+    color:#000;
 }
 .Video .child.two .textHeight{
     justify-content: start;
