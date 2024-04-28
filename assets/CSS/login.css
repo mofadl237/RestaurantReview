@@ -14,11 +14,13 @@
     -o-border-radius: .3rem;
     box-shadow: 1px 1px 10px #999 inset;
     overflow: hidden;
-    
+
 }
+
 .FormChild {
-    padding:.2rem;
+    padding: .2rem;
 }
+
 .Form .parentForm .text {
     color: white;
     margin: 2rem 0;
@@ -27,11 +29,13 @@
 .Form .parentForm .text a {
     color: var(--main-Color);
 }
-@media (max-width:500px){
-    .Form .parentForm .text p , .Form .parentForm .text a{
+
+@media (max-width:500px) {
+    .Form .parentForm .text p, .Form .parentForm .text a {
         font-size: .5rem;
     }
 }
+
 .Form .parentForm .inputBox {
     border-bottom: 1px solid #d6d2d2;
     margin: 1.5rem 0;
@@ -47,10 +51,7 @@
     padding: .5rem .2rem;
     border: none;
     color: #000;
-}
-
-.Form .parentForm .inputBox input::selection {
-    border: 1px solid green;
+    background-color: transparent;
 }
 
 .Form .parentForm .inputBox input::placeholder {
@@ -60,6 +61,7 @@
 
 .Form .parentForm .inputBox input:focus {
     outline: none;
+    background-color: transparent;
 }
 
 .Form .parentForm .inputBox {
@@ -91,34 +93,3 @@
     -ms-transform: scale(1.08);
     -o-transform: scale(1.08);
 }
-/* 
-.Form .parentForm::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    top: -50px;
-    left: -50px;
-    z-index: 1;
-    background: linear-gradient(0deg, transparent, transparent, #45f3ff, #45f3ff, #45f3ff);
-    animation: animate 6s linear infinite;
-    -webkit-animation: animate 6s linear infinite;
-    
-}
-
-@keyframes animate {
-    0% {
-        transform: rotate(0deg);
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-        -webkit-transform: rotate(360deg);
-        -moz-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-        -o-transform: rotate(360deg);
-}
-} */
