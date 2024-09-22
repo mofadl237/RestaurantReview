@@ -1394,3 +1394,15 @@ footer .low p span{
         flex-direction: column;
     }
 }
+.featured .container .grid-3 .child .image{
+    height:450px;
+    margin-bottom: 1rem;
+}
+.featured .container .grid-3 .child .image img{
+    /* max-height: 400px;
+    border:1px solid red; */
+    min-height: 100%;
+}
+.catogery{
+    background-color: #000;
+}

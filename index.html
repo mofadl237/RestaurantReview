@@ -28,7 +28,7 @@
                 <span class="responsive"><i class="fas fa-bars"></i></span>
                 <ul class="flex">
                     <li class="dropdown">
-                        <a href="#">Home</a>
+                        <a href="#Home">Home</a>
                         <div class="dropdown-menue one">
                             <ul >
                                 <li><a href="#">Fast food restaurants</a></li>
@@ -52,24 +52,12 @@
                             </ul>
                         </div>
                     </li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">customer</a></li>
-                    <li class="dropdown">
-                        <a href="#">Reviews</a>
-                        <div class="dropdown-menue">
-                            <ul>
-                                <li>Bazoka</li>
-                                <li>Vibes</li>
-                                <li>Stereo</li>
-                            </ul>
-                            <ul>
-                                <li>المحمدي</li>
-                                <li>الصباحي</li>
-                                <li>Bremer</li>
-                            </ul>
-                        </div>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Customer">Review</a></li>
+                    <li>
+                        <a href="#Revies">Customer</a>
                     </li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#Contact">Contact</a></li>
                 </ul>
             </nav>
             <div class="child icons flex">
@@ -80,7 +68,7 @@
     </div><!-- End Contaier -->
 </header>
 <!-- Start Section Main -->
-<main>
+<main id="Home">
     <div class="container">
         <div class="image">
             <div class="centerF">
@@ -90,7 +78,7 @@
                 </div>
             </div>
             <div class="contentImageMain centerF">
-                <h3>teasty and fresh</h3>
+                <h3>Tasty and fresh</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat labore, sint cupiditate distinctio tempora reiciendis.</p>
                 <a href="#products" class="btn">get yours now</a>
             </div>
@@ -104,7 +92,7 @@
 <!-- End Section Main -->
 
 <!-- start section video  -->
-<section class="Video">
+<section class="Video" id="About"style="background-color: #000;">
     <div class="container">
         <div class=" specialHeader centerF">
             <h3>About<span> Us</span></h3>
@@ -134,7 +122,7 @@
 </section>
 <!-- End section About -->
 
-<section class="featured">
+<section class="featured" id="Customer"style="background-color: #111;">
     <div class="container">
         <div class=" specialHeader centerF">
             <h3>Top <span>Reviews</span></h3>
@@ -143,9 +131,9 @@
         <div class="grid-3">
             <div class="child">
                 <div class="image">
-                    <img src="assets/images/product1-back.jpg" alt="">
+                    <img src="assets/images/aklbaz.jpg" alt="">
                     <div class="imgTransform">
-                        <img src="assets/images/product-1.png" alt="">
+                        <img src="assets/images/aklbaz-bac.jpg" alt="">
                         <div class="centerF">
                             <div class="icons">
                                 <span><i class="far fa-heart"></i></span>
@@ -164,15 +152,43 @@
                         <li class="yellow"><i class="fas fa-star"></i></li>
                         <li><i class="far fa-star"></i></li>
                     </ul>
-                    <h5>sushi meal</h5>
+                    <h5>Brosted Chicken</h5>
+                    <p>Bazzoka</p>
+                </div>
+            </div>
+            <div class="child">
+                <div class="image">
+                    <img src="assets/images/aklbrem.jpg" alt="">
+                    <div class="imgTransform">
+                        <img src="assets/images/aklbrem-bac.jpg" alt="">
+                        <div class="centerF">
+                            <div class="icons">
+                                <span><i class="far fa-heart"></i></span>
+                                <span><i class="far fa-eye"></i></span>
+                                <span><i class="fab fa-opencart"></i></span>
+                                <span><i class="far fa-envelope"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text">
+                    <ul>
+                        <li class="yellow"><i class="fas fa-star"></i></li>
+                        <li class="yellow"><i class="fas fa-star"></i></li>
+                        <li class="yellow"><i class="fas fa-star"></i></li>
+                        <li class="yellow"><i class="fas fa-star"></i></li>
+                        <li><i class="far fa-star"></i></li>
+                    </ul>
+                    <h5>Buffalo Chicken</h5>
                     <p>Bremer</p>
                 </div>
             </div>
+
             <div class="child">
                 <div class="image">
-                    <img src="assets/images/product-2.jpg" alt="">
+                    <img src="assets/images/karam.jpg" alt="">
                     <div class="imgTransform">
-                        <img src="assets/images/product-2-back-.png" alt="">
+                        <img src="assets/images/karam-back.jpg" alt="">
                         <div class="centerF">
                             <div class="icons">
                                 <span><i class="far fa-heart"></i></span>
@@ -191,16 +207,16 @@
                         <li class="yellow"><i class="fas fa-star"></i></li>
                         <li><i class="far fa-star"></i></li>
                     </ul>
-                    <h5>Burger meal</h5>
-                    <p>Chef's</p>
+                    <h5>Shawrma</h5>
+                    <p>Karam Elsham</p>
                 </div>
             </div>
 
             <div class="child">
                 <div class="image">
-                    <img src="assets/images/product-3.png" alt="">
+                    <img src="assets/images/aklroh-bac.jpg" alt="">
                     <div class="imgTransform">
-                        <img src="assets/images/product-3-back.jpg" alt="">
+                        <img src="assets/images/aklroh.jpg" alt="">
                         <div class="centerF">
                             <div class="icons">
                                 <span><i class="far fa-heart"></i></span>
@@ -219,16 +235,16 @@
                         <li class="yellow"><i class="fas fa-star"></i></li>
                         <li><i class="far fa-star"></i></li>
                     </ul>
-                    <h5>Pizza Meal</h5>
-                    <p>Bazoka</p>
+                    <h5>Krespy meal</h5>
+                    <p>Roh Elsham</p>
                 </div>
             </div>
 
             <div class="child">
                 <div class="image">
-                    <img src="assets/images/product-2-back-.png" alt="">
+                    <img src="assets/images/akleee.jpg" alt="">
                     <div class="imgTransform">
-                        <img src="assets/images/product-2.jpg" alt="">
+                        <img src="assets/images/aklAhl-back.jpg" alt="">
                         <div class="centerF">
                             <div class="icons">
                                 <span><i class="far fa-heart"></i></span>
@@ -247,16 +263,16 @@
                         <li class="yellow"><i class="fas fa-star"></i></li>
                         <li><i class="far fa-star"></i></li>
                     </ul>
-                    <h5>chicken meal</h5>
-                    <p>Vibes</p>
+                    <h5>Box Elsada</h5>
+                    <p>Ahl Elsham</p>
                 </div>
             </div>
 
             <div class="child">
                 <div class="image">
-                    <img src="assets/images/product1-back.jpg" alt="">
+                    <img src="assets/images/aklbuff.jpg" alt="">
                     <div class="imgTransform">
-                        <img src="assets/images/product-1.png" alt="">
+                        <img src="assets/images/aklbuff-bac.jpg" alt="">
                         <div class="centerF">
                             <div class="icons">
                                 <span><i class="far fa-heart"></i></span>
@@ -275,43 +291,15 @@
                         <li class="yellow"><i class="fas fa-star"></i></li>
                         <li><i class="far fa-star"></i></li>
                     </ul>
-                    <h5>Pizaa meal</h5>
-                    <p>Reem</p>
-                </div>
-            </div>
-
-            <div class="child">
-                <div class="image">
-                    <img src="assets/images//product-3-back.jpg" alt="">
-                    <div class="imgTransform">
-                        <img src="assets/images/product-1.png" alt="">
-                        <div class="centerF">
-                            <div class="icons">
-                                <span><i class="far fa-heart"></i></span>
-                                <span><i class="far fa-eye"></i></span>
-                                <span><i class="fab fa-opencart"></i></span>
-                                <span><i class="far fa-envelope"></i></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text">
-                    <ul>
-                        <li class="yellow"><i class="fas fa-star"></i></li>
-                        <li class="yellow"><i class="fas fa-star"></i></li>
-                        <li class="yellow"><i class="fas fa-star"></i></li>
-                        <li class="yellow"><i class="fas fa-star"></i></li>
-                        <li><i class="far fa-star"></i></li>
-                    </ul>
-                    <h5>Pasta meal</h5>
-                    <p>Bremer</p>
+                    <h5>Hitch Hiker</h5>
+                    <p>Buffalo</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="catogery">
+<section class="catogery" >
     <div class=" specialHeader centerF">
         <h3><span>Special </span>Restaurant</h3>
         <div class="line"></div>
@@ -320,7 +308,7 @@
         <div class="grid-4">
             <div class="child">
                 <div class="image">
-                    <img src="assets/images/rest-3.png" alt="Image Restaurant">
+                    <img src="assets/images/bremer.jpg" alt="Image Restaurant">
                 </div>
                 <div class="text flex">
                    <div class="texts">
@@ -328,27 +316,27 @@
                     <p>Bremer</p>
                    </div>
                    <div class="icons">
-                    <span><i class="fas fa-angle-double-right"></i></span>
+                    <span><a href="https://www.facebook.com/BremerEG?mibextid=ZbWKwL"><i class="fas fa-angle-double-right"></i></a></span>
                    </div>
                 </div>
             </div>
             <div class="child">
                 <div class="image">
-                    <img src="assets/images/rest-2.png" alt="">
+                    <img src="assets/images/karz.jpg" alt="">
                 </div>
                 <div class="text flex">
                    <div class="texts">
                     <h5>Most Popular</h5>
-                    <p>Chef's</p>
+                    <p>كرم الشام</p>
                    </div>
                    <div class="icons">
-                    <span><i class="fas fa-angle-double-right"></i></span>
+                    <span><a href="https://www.facebook.com/karamelshaam?mibextid=ZbWKwL"><i class="fas fa-angle-double-right"></i></a></span>
                    </div>
                 </div>
             </div>
             <div class="child">
                 <div class="image">
-                    <img src="assets/images/rest-5.png" alt="">
+                    <img src="assets/images/bazoka.jpg" alt="">
                 </div>
                 <div class="text flex">
                    <div class="texts">
@@ -356,21 +344,21 @@
                     <p>Bazoka</p>
                    </div>
                    <div class="icons">
-                    <span><i class="fas fa-angle-double-right"></i></span>
+                    <span><a href="https://www.facebook.com/Bazookaegy?mibextid=ZbWKwL"><i class="fas fa-angle-double-right"></i></a></span>
                    </div>
                 </div>
             </div>
             <div class="child">
                 <div class="image">
-                    <img src="assets/images/woman-5173351_640.png" alt="">
+                    <img src="assets/images/rohelsham.jpg" alt="">
                 </div>
                 <div class="text flex">
                    <div class="texts">
                     <h5>Most Popular</h5>
-                    <p>Vibes</p>
+                    <p>روح الشام</p>
                    </div>
                    <div class="icons">
-                    <span><i class="fas fa-angle-double-right"></i></span>
+                    <span><a href="https://www.facebook.com/bawaabat.dimashq1?mibextid=ZbWKwL"><i class="fas fa-angle-double-right"></i></a></span>
                    </div>
                 </div>
             </div>
@@ -380,7 +368,7 @@
 <!-- End Section Special -->
 
 <!-- start Section featured -->
-<section class="featured Review">
+<section class="featured Review" id="Revies" style="background-color: #111;">
     <div class="container">
         <div class=" specialHeader centerF">
             <h3><span>CUSTOMER'S</span> REVIEW</h3>
@@ -468,7 +456,7 @@
 </section>
 <!-- End Section featured -->
 
-<section class="Contact">
+<section class="Contact" id="Contact" style="background-color: #000;">
     <div class="container">
         <div class=" specialHeader centerF">
             <h3>Contact<span> Us</span></h3>
@@ -504,7 +492,7 @@
 </section>
 
 
-<footer>
+<footer style="background-color: #111;">
     <div class="container">
         <div class="grid-4">
             <div class="child one">
